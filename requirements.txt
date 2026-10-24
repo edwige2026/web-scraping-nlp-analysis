@@ -1,0 +1,9 @@
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+selenium>=4.15
+requests>=2.31
+ipykernel>=6.25
+# Optional for person-name extraction in notebook 02:
+# spacy>=3.7
+# Then install the German model separately: python -m spacy download de_core_news_sm

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+# Local databases and potentially copyrighted article text
+data/*
+!data/.gitkeep
+# Raw downloaded files and private intermediate data
+raw/
+private/
+# Notebook outputs can be large or contain source text; inspect before committing
